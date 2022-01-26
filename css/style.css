@@ -83,9 +83,17 @@ span {
   flex-direction: column;
 }
 
+h1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: outfit;
+  font-weight: 700;
+}
+
 .container2 form div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 10vw;
   height: 8vh;
