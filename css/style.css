@@ -95,23 +95,43 @@ input {
   border-left: transparent;         
 }
 
-span {
+/* span {
   font-family: outfit;
     font-size: 18px;
     color: rgb(10, 80, 231);
     position: relative;
-  ;
+    text-align: center;
+} */
+
+h3 {
+  justify-content: center;
+  text-align: center;
+  display: inline;
+  font-family: outfit;
+    font-size: 17px;
+    color: rgb(10, 80, 231);
+}
+
+.end {
+  position: flex;
+  justify-content: space-around;
+  width: 10vw;
+  height: 8vh;
 }
 
 #send {
-  position: relative;
-  left: 3rem;
   font-family: outfit;
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   background-color: rgb(65, 173, 223);
   width: 5vw;
   height: 4vh;
   border-radius: 10%;
   border-bottom: 2px solid rgb(65, 173, 223);
+}
+
+.checkbox {
+  width: 2vw;
+  height: 2vh;
+
 }
