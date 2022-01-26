@@ -33,6 +33,13 @@ body {
     justify-content: space-between ;
 }
 
+a {
+  font-family: outfit;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
 .container .box1 {
   padding: 1rem;
   border: 1px solid lightgray;
