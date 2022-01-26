@@ -39,6 +39,9 @@ a {
   text-decoration: none;
 }
 
+.fa-facebook-square{
+  position: absolute;
+}
 .container .box1 {
   padding: 1rem;
   border: 1px solid lightgray;
