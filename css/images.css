@@ -1,0 +1,11 @@
+.user {
+  position: relative;
+  right: 2rem;
+  width: 3rem;
+}
+
+.lock {
+  position: relative;
+  right: 2rem;
+  width: 5rem;
+}

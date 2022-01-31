@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Source+Sans+Pro:wght@300&display=swap');
+@import url(./images.css);
+@import url(./anchor.css);
 * {
   margin: 0;
   padding: 0;
@@ -38,18 +40,6 @@ body {
     border: 1px solid lightgray;
     justify-content: space-between ;
 }
-
-a {
-  display: flex;
-  font-family: outfit;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-}
-/* 
-.fa-facebook-square{
-  position: absolute;
-} */
 
 .container .box1 {
   padding: 1rem;
@@ -105,11 +95,12 @@ h1 {
 
 .container2 form div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   width: 10vw;
   height: 8vh;
 }
+
 
 
 input {
