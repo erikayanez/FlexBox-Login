@@ -11,6 +11,12 @@ body {
   align-items: center;
   height: 70vh;
   width: 70vw;
+  border: 2px solid red;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: row;
 }
 
 .container { 
