@@ -15,12 +15,12 @@ body {
   align-items: center;
   height: 50vh;
   width: 60vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .mainbox {
   display: flex;
   flex-direction: row;
-  border: 2px dashed blue;
+  /* border: 2px dashed blue; */
 }
 
 .container { 
@@ -60,6 +60,15 @@ body {
   width: 20rem;
   height: 5rem;
   background-color: rgb(157, 220, 245);
+}
+
+article div span {
+  display: flex;
+  margin-top: 10rem;
+  width: 3vw;
+  height: 3vh;
+  border: 2px solid lightgray;
+  border-radius: 100%;
 }
 
 span {
