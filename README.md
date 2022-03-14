@@ -17,7 +17,7 @@
 - **Tools:**
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Google Fonts](https://fonts.google.com/)
-- [Fontawesome](https://fontawesome.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 - **Contact:**
 GitHub: [erikayanez](https://github.com/)<br>
