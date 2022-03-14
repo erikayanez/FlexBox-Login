@@ -66,9 +66,9 @@ article div span {
   display: flex;
   margin-top: 10rem;
   width: 3vw;
-  height: 3vh;
+  height: 4vh;
   border: 2px solid lightgray;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 span {
@@ -78,6 +78,7 @@ span {
   font-size: 18px;
   color: gray;
   text-align: center;
+  
 } 
 
 .container2 { 
