@@ -1,6 +1,7 @@
 ## Project Login Page
 
-![screenshot of the project](.)
+![login-page-flex](.images/login-page-flex.png)
+
 
 ## About the project:
 > This project shows how positioning, classes and pseudo-classes are used to create a login page.
