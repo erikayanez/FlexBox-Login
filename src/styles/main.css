@@ -20,6 +20,8 @@ body {
   width: 30vw;
   height: 45vh;
   border: 2px solid lightgray;
+  border-top: none;
+  border-bottom: none;
   margin-left: 5rem;
   display: flex;
   flex-direction: column;
@@ -29,8 +31,35 @@ body {
 .mainbox .container .box1, .mainbox .container .box2, .mainbox .container .box3 {
   width: 25vw;
   height: 10vh;
-  margin-left: 4rem;
+  margin: 0px 10px 0px 10px;
   border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainbox .container a {
+  color: whitesmoke;
+  font-size: 25px;
+}
+.mainbox .container .box1 {
+  background-color: rgba(34, 85, 180, 0.822);
+}
+.mainbox .container .box2 {
+  background-color: rgba(255, 0, 0, 0.726);
+}
+.mainbox .container .box3 {
+  background-color: lightskyblue;
+}
+.mainbox .container2 {
+  width: 30vw;
+  height: 45vh;
+  border: 2px solid lightgray;
+  border-top: none;
+  border-bottom: none;
+  width: 25vw;
+  height: 10vh;
+  margin: 0px 10px 0px 10px;
+  border-bottom: 2px solid gray;
   display: flex;
   justify-content: center;
   align-items: center;

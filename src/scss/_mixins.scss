@@ -7,14 +7,31 @@
     width: 30vw;
     height: 45vh;
     border: 2px solid lightgray;
+    border-top: none;
+    border-bottom: none;
 }
 // mixin for social media anchors
 @mixin social-media () {
-        width: 25vw;
-        height: 10vh;
-        margin-left: 4rem;
-        border: 2px solid gray;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    width: 25vw;
+    height: 10vh;
+    margin: 0px 10px 0px 10px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// mixin for user information
+@mixin  user-information (){
+    width: 25vw;
+    height: 10vh;
+    margin: 0px 10px 0px 10px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// mixin for icons
+@mixin user-icons (){
+    width: 5vw;
+    height: 3vh;
 }
