@@ -30,6 +30,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border-left: none;
+  border-right: none;
 }
 .mainbox .container .box1, .mainbox .container .box2, .mainbox .container .box3 {
   width: 25vw;
@@ -51,20 +52,6 @@ body {
 }
 .mainbox .container .box3 {
   background-color: lightskyblue;
-}
-.mainbox .middle-text {
-  height: 3vh;
-  position: relative;
-  border: 2px solid red;
-  border-radius: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: whitesmoke;
-  display: none;
-}
-.mainbox .middle-text::after {
-  z-index: 1;
 }
 .mainbox .container2 {
   width: 30vw;
@@ -96,7 +83,7 @@ body {
   width: 25vw;
   height: 10vh;
   margin: 0px 10px 0px 10px;
-  border-bottom: 2px solid #a19f9f;
+  border-bottom: 1px solid #a19f9f;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -110,7 +97,7 @@ body {
   width: 25vw;
   height: 10vh;
   margin: 0px 10px 0px 10px;
-  border-bottom: 2px solid #a19f9f;
+  border-bottom: 1px solid #a19f9f;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -124,7 +111,7 @@ body {
   width: 25vw;
   height: 10vh;
   margin: 0px 10px 0px 10px;
-  border-bottom: 2px solid #a19f9f;
+  border-bottom: 1px solid #a19f9f;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -154,9 +141,23 @@ body {
   height: 4vh;
 }
 
+.middle-text {
+  width: 3vw;
+  height: 5.5vh;
+  position: absolute;
+  top: 22%;
+  left: 49%;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
 footer {
   width: 60vw;
-  height: 10vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
