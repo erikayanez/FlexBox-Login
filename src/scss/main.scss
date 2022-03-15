@@ -1,2 +1,28 @@
+@import "./mixins";
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Source+Sans+Pro:wght@300&display=swap');
 @import url(../fontawesome-free-6.0.0-beta3-web/css/all.css);
+body {
+    @include standard-setup ();  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbox {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed salmon;
+    .container {
+        @include containers ();
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        .box1, .box2, .box3 {
+            @include social-media ();
+        }
+    }
+}

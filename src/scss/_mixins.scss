@@ -1,0 +1,20 @@
+@mixin standard-setup(){
+    margin: 0;
+    padding: 0;
+}
+// mixin for containers
+@mixin containers() {
+    width: 30vw;
+    height: 45vh;
+    border: 2px solid lightgray;
+}
+// mixin for social media anchors
+@mixin social-media () {
+        width: 25vw;
+        height: 10vh;
+        margin-left: 4rem;
+        border: 2px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
