@@ -97,13 +97,32 @@ body {
   border: none;
 }
 .mainbox .container2 .user-input .end-buttons {
+  width: 25vw;
+  height: 10vh;
+  margin: 0px 10px 0px 10px;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  border-bottom: none;
 }
-.mainbox .container2 .user-input .end-buttons .checkbox-button, .mainbox .container2 .user-input .end-buttons .login-button {
-  display: flex;
+.mainbox .container2 .user-input .end-buttons .checkbox-button {
+  font-weight: 900;
+  font-size: 20px;
+}
+.mainbox .container2 .user-input .end-buttons .login-button input {
+  width: 6vw;
+  height: 5vh;
+  background-color: lightskyblue;
+  border-radius: 5%;
+  border: none;
+  color: whitesmoke;
+  font-weight: 900;
+  font-size: 20px;
 }
 .mainbox .container2 img {
   width: 5vw;

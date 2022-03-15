@@ -70,13 +70,29 @@ body {
                 }
             }
             .end-buttons {
+                @include user-information ();
                 margin-top: 2rem;
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 align-items: center;
-                .checkbox-button, .login-button  {
-                    display: flex;
-                } 
+                border-bottom: none;
+                .checkbox-button {
+                    font-weight: 900;
+                    font-size: 20px;
+                }
+                .login-button {
+                    
+                    input {
+                        width: 6vw;
+                        height: 5vh;
+                        background-color: lightskyblue;
+                        border-radius: 5%;
+                        border: none;
+                        color: whitesmoke;
+                        font-weight: 900;
+                        font-size: 20px;
+                    }
+                }
             }
         }
         img {
