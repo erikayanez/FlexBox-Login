@@ -9,17 +9,13 @@ body {
     align-items: center;
 }
 .mainbox {
-    width: 70vw;
+    width: 60vw;
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid lightgray;
-    span {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    border-bottom: none;
     // Container Left side. Social media anchors.
     .container {
         @include containers ();
@@ -28,7 +24,7 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        border-right: none;
+        border-left: none;
         .box1, .box2, .box3 {
             @include social-media ();
         }
@@ -45,7 +41,21 @@ body {
         .box3 {
             background-color: lightskyblue;
         }
-    }  
+    } 
+    .middle-text {
+        height: 3vh;
+        position: relative;
+        border:2px solid red;
+        border-radius: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        display: none;
+        &::after {
+            z-index: 1;
+        }
+    }
     // Container Right side. User information to login.
     .container2 {
         @include containers ();
@@ -54,6 +64,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border-right: none;
         h1 {
             display: flex;
             justify-content: center;
@@ -115,23 +126,20 @@ body {
 }    
 // Footer
 footer {
-    width: 70vw;
+    width: 60vw;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid lightgray;
-    border-top: none;
-        .button-message {
-            width: 20vw;
-            height: 5vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: blue;
-            font-weight: 900;
-            font-size: 20px;
-        }
+    .button-message {
+        width: 20vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+        font-weight: 900;
+        font-size: 20px;
     }
-
-
+}

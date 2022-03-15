@@ -6,7 +6,7 @@
 @mixin containers() {
     width: 30vw;
     height: 45vh;
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
     border-top: none;
     border-bottom: none;
 }
@@ -31,6 +31,6 @@
 }
 // mixin for icons
 @mixin user-icons (){
-    width: 3vw;
+    width: 2.5vw;
     height: 4vh;
 }
