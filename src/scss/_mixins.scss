@@ -24,13 +24,13 @@
     width: 25vw;
     height: 10vh;
     margin: 0px 10px 0px 10px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(161, 159, 159);
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 // mixin for icons
 @mixin user-icons (){
-    width: 5vw;
-    height: 5vh;
+    width: 3vw;
+    height: 4vh;
 }
