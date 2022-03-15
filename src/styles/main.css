@@ -56,6 +56,24 @@ body {
   border: 2px solid lightgray;
   border-top: none;
   border-bottom: none;
+  margin-rihgt: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainbox .container2 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.mainbox .container2 .user-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mainbox .container2 .user-input .user-name {
   width: 25vw;
   height: 10vh;
   margin: 0px 10px 0px 10px;
@@ -63,6 +81,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.mainbox .container2 .user-input .user-name .textbox {
+  border: none;
+}
+.mainbox .container2 .user-input .user-password {
+  width: 25vw;
+  height: 10vh;
+  margin: 0px 10px 0px 10px;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainbox .container2 .user-input .user-password .textbox {
+  border: none;
+}
+.mainbox .container2 img {
+  width: 5vw;
+  height: 5vh;
 }
 
 /*# sourceMappingURL=main.css.map */
