@@ -4,15 +4,16 @@
 
 
 ## About the project:
-> This project shows how positioning, classes and pseudo-classes are used to create a login page.
+> This a new version of the project to implement Scss.
 
 - **Description:**
-> For this project it was required to create a webpage using Html, Css and Flex. then create a repository in GitHub.
+> For this project it was required to create a webpage using Html, Css and Scss. There is a repository created in GitHub.
 
 - **- **Developed with:**
 - [x] _Html5_
 - [x] _Css_
 - [x] _FlexBox_
+- [x] _Scss_
 
 - **Tools:**
 - [Visual Studio Code](https://code.visualstudio.com/)
