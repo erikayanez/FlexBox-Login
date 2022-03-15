@@ -69,7 +69,15 @@ body {
                     border: none;
                 }
             }
-            
+            .end-buttons {
+                margin-top: 2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .checkbox-button, .login-button  {
+                    display: flex;
+                } 
+            }
         }
         img {
             @include user-icons ();

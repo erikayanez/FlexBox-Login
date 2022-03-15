@@ -32,7 +32,6 @@ body {
   width: 25vw;
   height: 10vh;
   margin: 0px 10px 0px 10px;
-  border: 2px solid gray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,6 +95,15 @@ body {
 }
 .mainbox .container2 .user-input .user-password .textbox {
   border: none;
+}
+.mainbox .container2 .user-input .end-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainbox .container2 .user-input .end-buttons .checkbox-button, .mainbox .container2 .user-input .end-buttons .login-button {
+  display: flex;
 }
 .mainbox .container2 img {
   width: 5vw;
