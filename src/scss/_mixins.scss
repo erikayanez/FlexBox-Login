@@ -27,7 +27,7 @@
     border-bottom: 2px solid gray;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 // mixin for icons
 @mixin user-icons (){

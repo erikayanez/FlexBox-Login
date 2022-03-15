@@ -4,17 +4,18 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .mainbox {
-  width: 80vw;
+  width: 70vw;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px dashed salmon;
+  border: 2px solid lightgray;
 }
 .mainbox .container {
   width: 30vw;
@@ -22,7 +23,7 @@ body {
   border: 2px solid lightgray;
   border-top: none;
   border-bottom: none;
-  margin-left: 5rem;
+  margin-left: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -79,10 +80,12 @@ body {
   border-bottom: 2px solid gray;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .mainbox .container2 .user-input .user-name .textbox {
   border: none;
+  font-weight: 900;
+  font-size: 15px;
 }
 .mainbox .container2 .user-input .user-password {
   width: 25vw;
@@ -91,10 +94,12 @@ body {
   border-bottom: 2px solid gray;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .mainbox .container2 .user-input .user-password .textbox {
   border: none;
+  font-weight: 900;
+  font-size: 15px;
 }
 .mainbox .container2 .user-input .end-buttons {
   width: 25vw;
@@ -103,7 +108,7 @@ body {
   border-bottom: 2px solid gray;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
@@ -113,6 +118,7 @@ body {
 .mainbox .container2 .user-input .end-buttons .checkbox-button {
   font-weight: 900;
   font-size: 20px;
+  color: #5c5959;
 }
 .mainbox .container2 .user-input .end-buttons .login-button input {
   width: 6vw;
@@ -127,6 +133,26 @@ body {
 .mainbox .container2 img {
   width: 5vw;
   height: 5vh;
+}
+
+footer {
+  width: 70vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgray;
+  border-top: none;
+}
+footer .button-message {
+  width: 20vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
